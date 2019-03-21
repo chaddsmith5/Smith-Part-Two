@@ -17,10 +17,8 @@
        weatherAssessment = "forget the jacket, it's hot outside!";
     } else if( tempFahr <= 54 ) {
        weatherAssessment = "grab a coat, it's gonna be chilly outside!";
-    } else if( tempFahr < 54 || tempFahr > 70 ) {
+    } else if( tempFahr > 54 || tempFahr < 70 ) {
        weatherAssessment = "maybe a jacket, it's pleasant outside!";
-    } else {
-       weatherAssessment = "Who cares about the weather,";
-    }
+	}
 	alert(recommendedClothing + ' ' + weatherAssessment)
     console.log(recommendedClothing + ' ' + weatherAssessment)
